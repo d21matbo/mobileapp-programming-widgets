@@ -7,10 +7,10 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_gravity="center"
         android:id="@+id/mountain_name"
         android:text="@string/mountain_name"
         android:textSize="36sp"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
     </TextView>
@@ -23,10 +23,10 @@
     </ImageView>
 
     <Button
-        android:layout_margin="16dp"
-        android:layout_gravity="center"
         android:id="@+id/button"
         android:text="Click here"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
     </Button>
